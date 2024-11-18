@@ -5,7 +5,7 @@
 - Đổi tên file hình ảnh muốn chạy ở phần img_path
 ## VGG16
 - Đổi tên file hình ảnh muốn chạy ở phần img_path
-## App Yolov8
+## App + Yolov8
 *Lưu ý: Thay đổi server, database, username, password database và driver ODBC trong license_plate_DB.py. Nếu bạn không có tài khoản hoặc không muốn đăng nhập, phần mềm sẽ mất khoảng 15 giây để khởi động vì không thể kết nối với cơ sở dữ liệu.*
 
 **Hiện tại, phần mềm đang gặp nhiều lỗi và vấn đề về hiệu suất. Chúng tôi mong nhận được sự đóng góp và lời khuyên từ mọi người.**
