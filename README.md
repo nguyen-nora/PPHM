@@ -5,10 +5,11 @@
 - Đổi tên file hình ảnh muốn chạy ở phần img_path
 ## VGG16
 - Đổi tên file hình ảnh muốn chạy ở phần img_path
-## App + Yolov8
-*Lưu ý: Thay đổi server, database, username, password database và driver ODBC trong license_plate_DB.py. Nếu bạn không có tài khoản hoặc không muốn đăng nhập, phần mềm sẽ mất khoảng 15 giây để khởi động vì không thể kết nối với cơ sở dữ liệu.*
-
-**Hiện tại, phần mềm đang gặp nhiều lỗi và vấn đề về hiệu suất. Chúng tôi mong nhận được sự đóng góp và lời khuyên từ mọi người.**
-
-*Nếu bạn nhấn nút quick_view, một cửa sổ mới sẽ xuất hiện để người khác dễ dàng xem, tuy nhiên nó đang gây ra lỗi khiến một trong hai camera đầu tiên trong cửa sổ chính bị đóng băng hình ảnh. Có một lỗi rò rỉ RAM với tần suất tăng 0,1% trong 1 phút, tôi nghĩ vấn đề này là do sử dụng cv2. Khi đóng gói với auto-py-to-exe, sử dụng chức năng quẹt thẻ lần đầu tiên sẽ khiến ứng dụng mở lại.*
-
+## Yolov8
+### Hình ảnh
+- Sử dụng dòng lệnh "py runDACN.py -image [img_path + name]" trên console đẻ chạy.
+### Video
+![yolov8-1](https://github.com/user-attachments/assets/d87692b1-d236-4e93-98a6-923eae7c2cae)
+- Đổi "output.avi" thành video bạn muốn
+- Sử dụng dòng lệnh "py runDACN.py -video" trên console để chạy.
+*Lưu ý: nếu báo lỗi không đủ thư viện vui lòng tải thêm thư viện cho toàn bộ cái file.* 
